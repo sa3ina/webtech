@@ -1,0 +1,38 @@
+input,
+button {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 1000;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  border-radius: 4px;
+}
+button {
+  cursor: pointer;
+}
+input {
+  width: 278px;
+  background-color: rgb(238, 248, 234);
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  text-align: center;
+}
+.cont {
+  background-color: rgb(83, 81, 81);
+  padding: 10px;
+  border-radius: 6px;
+}
+.operations {
+  color: #2fda06;
+  background-color: lightgray;
+}
+.equal {
+  background-color: #2fda06;
+  width: 134px;
+}

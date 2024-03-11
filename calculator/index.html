@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="cont">
+        <input type="text" id="input" disabled />
+        <br />
+        <button onclick="getInput('1')">1</button>
+        <button onclick="getInput('2')">2</button>
+        <button onclick="getInput('3')">3</button>
+        <button onclick="getInput('+')" class="operations">+</button>
+        <br />
+        <button onclick="getInput('4')">4</button>
+        <button onclick="getInput('5')">5</button>
+        <button onclick="getInput('6')">6</button>
+        <button onclick="getInput('-')" class="operations">-</button>
+        <br />
+        <button onclick="getInput('7')">7</button>
+        <button onclick="getInput('8')">8</button>
+        <button onclick="getInput('9')">9</button>
+        <button onclick="getInput('*')" class="operations">*</button>
+        <br />
+        <button onclick="getInput('0')">0</button>
+        <button onclick="getInput('00')">00</button>
+        <button onclick="getInput('%')">%</button>
+        <button onclick="getInput('/')" class="operations">/</button>
+        <br />
+        <button onclick="getInput('.')">.</button>
+        <button onclick="clearValue()">C</button>
+        <button onclick="calculate()" class="equal">=</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
