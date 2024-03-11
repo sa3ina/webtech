@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework</title>
+  </head>
+  <body>
+    <ul id="myList">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <button onclick="toggleListType()">Toggle</button>
+
+    <script>
+      function toggleListType() {
+        var myList = document.getElementById("myList");
+        var currentListType = myList.tagName;
+        var newList = document.createElement("ol");
+        while (myList.firstChild) {
+          newList.appendChild(myList.firstChild);
+        }
+        myList.parentNode.replaceChild(newList, myList);
+      }
+    </script>
+  </body>
+</html>
